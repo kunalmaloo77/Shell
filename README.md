@@ -21,6 +21,8 @@ I created this shell to deepen my understanding of operating systems and low-lev
 
 ## Demo
 
+![Demo of shell](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGl3OWlpOGQ1b3I4bHllNnlwczJnZGtmbnNtYnk3ZWV6Y3M5aXg5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AuNCuSCZDex9zAx4eu/giphy.gif)
+
 ## Technologies Used
 
 - C++ (standard library)
