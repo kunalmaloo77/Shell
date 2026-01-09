@@ -1,34 +1,32 @@
-[![progress-banner](https://backend.codecrafters.io/progress/shell/f24a4cd0-1e41-4a6a-85ef-b8e390a99b90)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+# My Custom POSIX-Compliant Shell in C++
 
-This is a starting point for C++ solutions to the
-["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
+This is my personal project where I built a fully functional POSIX-compliant shell from scratch in C++. It interprets shell commands, executes external programs, and supports built-in commands like `cd`, `pwd`, `echo`, and more. Through this, I explored shell parsing, REPL implementation, process management, and system calls.
 
-In this challenge, you'll build your own POSIX compliant shell that's capable of
-interpreting shell commands, running external programs and builtin commands like
-cd, pwd, echo and more. Along the way, you'll learn about shell command parsing,
-REPLs, builtin commands, and more.
+## Key Features
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+- Command parsing and execution
+- Built-in command support (e.g., `cd`, `pwd`, `echo`)
+- External program launching with argument handling
+- Basic error handling and signal management
 
-# Passing the first stage
+## Why I Built This
 
-The entry point for your `shell` implementation is in `src/main.cpp`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
+I created this shell to deepen my understanding of operating systems and low-level programming. It's a showcase of my C++ skills, including string manipulation, fork/exec, and environment management. This is not a starter template—it's my completed implementation for demonstration purposes.
 
-```sh
-git commit -am "pass 1st stage" # any msg
-git push origin master
-```
+## Installation and Setup
 
-Time to move on to the next stage!
+1. Clone the repo: `git clone https://github.com/kunalmaloo77/Shell.git`
+2. Ensure `cmake` is installed.
+3. Build and run: `./your_program.sh` (implements the shell in `src/main.cpp`).
 
-# Stage 2 & beyond
+## Demo
 
-Note: This section is for stages 2 and beyond.
+## Technologies Used
 
-1. Ensure you have `cmake` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `src/main.cpp`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+- C++ (standard library)
+- CMake for building
+- POSIX APIs (fork, exec, wait, etc.)
+
+## About Me
+
+I'm Kunal Maloo, a developer passionate about systems programming. Check out my other projects or connect on [LinkedIn](https://linkedin.com/in/kunal-maloo).
